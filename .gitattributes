@@ -1,0 +1,24 @@
+# Auto detect text files and normalize to LF in the repo
+* text=auto
+
+# Markdown files - LF in repo, CRLF on checkout (Windows)
+*.md text eol=crlf
+
+# Python files
+*.py text eol=crlf
+
+# JSON files
+*.json text eol=crlf
+
+# Shell scripts - keep LF only
+*.sh text eol=lf
+
+# Binary files - don't touch
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.exe binary
+*.dll binary
